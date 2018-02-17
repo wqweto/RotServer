@@ -44,10 +44,19 @@ Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Option Explicit
+DefObj A-Z
+
+'=========================================================================
+' Constants and member variables
+'=========================================================================
 
 Private WithEvents m_oWorker    As cWorker
 Attribute m_oWorker.VB_VarHelpID = -1
 Private m_lTotal                As Long
+
+'=========================================================================
+' Control events
+'=========================================================================
 
 Private Sub Form_Load()
     Set m_oWorker = New cWorker

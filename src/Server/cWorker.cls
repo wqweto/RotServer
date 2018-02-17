@@ -57,6 +57,10 @@ End Property
 ' Methods
 '=========================================================================
 
+Public Function BounceLong(ByVal lData As Long) As Long
+    BounceLong = lData
+End Function
+
 Public Function EnumFolder(Optional FileMask As String) As Variant
     Dim cRetVal         As Collection
     Dim sFile           As String

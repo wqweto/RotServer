@@ -1,6 +1,6 @@
 Type=Exe
 Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\..\Windows\SysWOW64\stdole2.tlb#OLE Automation
-Reference=*\G{DB74A312-7D49-4421-BF92-0B38E05F6C58}#a.0#0#..\..\RotServer.dll#Rot Server 1.0
+Reference=*\G{DB74A312-7D49-4421-BF92-0B38E05F6C58}#b.0#0#..\..\RotServer.dll#Rot Server 1.0
 Form=Form1.frm
 Startup="Form1"
 HelpFile=""
